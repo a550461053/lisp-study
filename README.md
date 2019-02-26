@@ -243,7 +243,7 @@
 )
 ```
 
-# 项目作业
+# 项目作业1
 - 需求
 	+ 不能使用循环等lisp的高级用法
 	+ 局限于：null,atom,equal,and,or,not,car,cdr,cons,list,mapcar,defun,apply,funcall,function,quote,eval,let,let*,setq,cond
@@ -252,4 +252,16 @@
 	+ 共五道题，详见pdf
 	+ cd mmm/
 	+ clisp mmm_test.clisp
+
+# 项目作业2
+- 需求
+	+ 作业地址：https://eclass.srv.ualberta.ca/portal/
+	+ 局限于：需要满足函数式编程的理念，避免使用显示循环、爆炸性赋值等
+- 测试
+	+ 共六道题，详见word
+	+ clisp
+	+ (load "a2-my.lisp")
+	+ (load "a2-public-tests.lisp")
+	+ 运行测试语句即可。
+
 
